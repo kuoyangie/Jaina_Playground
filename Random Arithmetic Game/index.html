@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jaina's Marbles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<style >
+  body {
+      background-image:
+      url('nabeel-hussain-zac8ky7BkLg-unsplash.jpg');
+  }
+</style>
+
+<body>
+  <header><h1>Jaina's Marbles</h1></header>
+
+  <div class="answer-board">
+    <div id="score" class="badge">Can you count how many marbles does little Jaina have?</div>
+    <span id="jaina-score">You answered correctly 0 times!</span>
+  </div>
+
+  <div class="question">
+    <p>Click next for new question</p>
+</div>
+
+<div class="wrapper">
+    <label>Please enter your answer:
+      <input type="text" id="input" placeholder="Answer">
+    </label>
+    <button id='bt'>SUBMIT</button>
+</div>
+
+<div class='button'>
+<button id="next" onclick="generateQuestion" type="button">NEXT QUESTION</button>
+</div>
+
+<script src="random_arithmetic_number.js" charset="utf-8"></script>
